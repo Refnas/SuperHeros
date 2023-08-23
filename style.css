@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid white; */
+  }
+  
+body{
+  background-color: #B3B3B3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.main-head{
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(25, 39, 52);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;                                            
+}
+
+.searchHero{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchHero input{
+  border: none;
+  border-radius: 12px;
+  font-size: 13px;
+  width: 170px;
+  height: 30px;
+  padding-left: 17px;
+}
+
+.searchHero #SearchBtn{
+  width: 30px;
+  height: 30px;
+  font-weight: bold;
+  border-radius: 50%;
+  margin: 0px 8px 0px 8px;
+}
+
+.searchHero #randomBtn{
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 20px;
+}
+
+#heroDetails{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  margin: 20px;
+}
+
+#heroDetails img{
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 15px;
+  margin: 10px 0px 10px;
+}
+
+#heroDetails span{
+  color: red;
+}
+
+#heroDetails h6{
+  color: blue;
+  margin: 5px;
+}
+
+#heroDetails h2{
+  font-family: mv boli;
+  font-weight: bolder;
+}
